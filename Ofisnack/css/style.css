@@ -9,6 +9,11 @@ body {
     color: white;
   }
 
+  .espacio{
+    height: 100px;
+    
+  }
+
 /*configuracion de la 1er hoja*/
 .comillas{
     color: #01ff01;
@@ -104,4 +109,10 @@ li {
   width: 61%;
   height: 81%;
   margin: 0px 0px 0px 70px;
+}
+
+/*Configuracion  Tercer Hoja */
+
+#comoFunciona .part1{
+  background-color: red;
 }
