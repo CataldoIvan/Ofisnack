@@ -1,12 +1,33 @@
+@font-face {
+    font-family: "GothamRounded-Bold";
+    src: url("GothamRounded-Bold.otf");
+  }
 
-
-.container-fluid{
+body {
     background-color:#17a2b8;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'GothamRounded-Bold', sans-serif;
     color: white;
-   
+  }
 
+  .titulo1{
+    font-size: 2.3em;
 }
 .comillas{
     color: #01ff01;
+}
+p.primerSaludo{
+    font-size: 1.2em;
+}
+/*ul{
+    list-style-image:url("/img/logo.jpeg");
+    list-style-type:  square;
+}*/
+li {
+	margin: 0;
+	padding: 2px 0 5px 51px;
+	list-style: none;
+	background-image: url("/img/logo.jpeg");
+	background-repeat: no-repeat;
+	background-position:left top;
+	background-size: 40px;
 }
