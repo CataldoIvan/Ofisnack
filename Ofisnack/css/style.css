@@ -16,10 +16,7 @@ body {
 p.primerSaludo{
     font-size: 1.2em;
 }
-/*ul{
-    list-style-image:url("/img/logo.jpeg");
-    list-style-type:  square;
-}*/
+
 li {
 	margin: 0;
 	padding: 2px 5px 5px 51px;
@@ -58,3 +55,53 @@ li {
 }
 /* configuracion de la Segunda Hoja*/
 
+.segundaHoja .part1{
+  height: 100%;
+
+}
+
+.segundaHoja .part1 p{
+  position: absolute;
+    top: 38%;
+    font-size: 50px;
+    left: 119px;
+    line-height: 89%;
+    font-weight: 100;
+}
+
+.imagen2hoja{
+  position: relative;
+    top: 6px;
+    right: 114px;
+  width: 150%;
+  height: 150%;
+
+}
+
+.segundaHoja .part3{
+  height: 100%;
+
+}
+.segundaHoja .part3 p{
+  position: absolute;
+    bottom: 28%;
+    font-size:30px;
+    left: 119px;
+    line-height: 89%;
+    font-weight: 100;
+}
+.part3 p.ademas{
+  position: absolute;
+  bottom: 21%;
+}
+.part3 .imagenCeliaco{
+  position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 20%;
+}
+.part3 img {
+  width: 61%;
+  height: 81%;
+  margin: 0px 0px 0px 70px;
+}
