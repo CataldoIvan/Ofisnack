@@ -38,10 +38,10 @@ p.primerSaludo{
 	margin: 0;
 	padding: 2px 5px 5px 51px;
 	list-style: none;
-	background-image: url("/img/circle-green.png");
+	background-image: url("/img/puntoVerde.png");
 	background-repeat: no-repeat;
 	background-position:15px 8px;
-	background-size: 20px;
+	background-size: 23px;
 }
 
 .mujer{
@@ -170,9 +170,36 @@ p.primerSaludo{
     bottom: 80px;
     height: 323px;
     /* right: 16px; */
-    left: 60px;
+    left: 110px;
 }
 
 #beneficios ul li{
   font-size: 1.2rem;
+}
+#beneficios .bParte2 li {
+	margin: 0;
+	padding: 2px 5px 5px 51px;
+	list-style: none;
+	background-image: url("/img/puntoVerde.png");
+	background-repeat: no-repeat;
+	background-position:15px 8px;
+	background-size: 23px;
+}
+#beneficios .bParte1 li {
+	margin: 0;
+	padding: 2px 5px 5px 51px;
+	list-style: none;
+	background-image: url("/img/puntoNaranja.png");
+	background-repeat: no-repeat;
+	background-position:15px 8px;
+	background-size: 23px;
+}
+.mujerEnBeneficio{
+  background-color:white;
+  border: 4px solid #ffff;
+    border-radius: 50%;
+    padding: 5px;
+    width: 147px;
+    height: 145px;
+    margin-top: 30px;
 }
