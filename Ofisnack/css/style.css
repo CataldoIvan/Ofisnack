@@ -203,3 +203,13 @@ p.primerSaludo{
     height: 145px;
     margin-top: 30px;
 }
+
+/*Configuracion de 5 hoja encontraEnOfisnack */
+#snaky{
+  margin: -139px 0px 0px -1px;
+
+}
+#caja{
+  width: 60%;
+    margin-left: 115px;
+}
