@@ -113,6 +113,41 @@ li {
 
 /*Configuracion  Tercer Hoja */
 
-#comoFunciona .part1{
-  background-color: red;
+#comoFunciona .CMparte4{
+
+  height: 339px;
+  
 }
+#comoFunciona .CMparte2 .circuloCF{
+  
+  border: 8px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  height: 187px;
+  width: 198px;
+  position: relative;
+  left: 87px;
+
+}
+.CMparte2 img{
+    height: 400px;
+    margin-top: -126px;
+    margin-left: 53px;
+}
+
+
+/* comfiguracion de reemplazado por imagen directamente CFunciona
+#comoFunciona .CMparte2 .circuloCF span {
+  position: absolute;
+  top: 9%;
+  right: 39%;
+  font-size: 5rem;
+}
+
+#comoFunciona .CMparte2 .circuloCF p{
+  position: absolute;
+ 
+  right: 11%;
+  font-size: 1.3rem;
+  bottom: 12%;
+}*/
+
