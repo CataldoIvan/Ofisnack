@@ -199,9 +199,9 @@ p.primerSaludo{
   border: 4px solid #ffff;
     border-radius: 50%;
     padding: 5px;
-    width: 147px;
-    height: 145px;
-    margin-top: 30px;
+    width: 178px;
+    height: 170px;
+    
 }
 
 /*Configuracion de 5 hoja encontraEnOfisnack */
@@ -212,4 +212,25 @@ p.primerSaludo{
 #caja{
   width: 60%;
     margin-left: 115px;
+}
+
+/* CONFIGURACION HOJA 7 POR QUE ODISNACK*/
+.pqOfisnackFoto img{
+  
+  width: 100%;
+}
+.justicado{
+  text-align: initial;
+  font-size: large;
+}
+
+td {
+  text-align: center;
+}
+#tilde,#cruz{
+ 
+  width: 57px;
+}
+#uno,#dos,#tres,#cuatro,#cinco,#seis {
+  width: 50px;
 }
