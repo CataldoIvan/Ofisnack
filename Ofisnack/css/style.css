@@ -241,3 +241,19 @@ td {
 #uno,#dos,#tres,#cuatro,#cinco,#seis {
   width: 50px;
 }
+
+/* CONFIGURACION HOJA 8 (final)mision*/
+#mision div h1{
+  letter-spacing: -2px;
+    line-height: 36px;
+}
+
+#mision p img{
+  text-align: end;
+}
+
+#mision h3{
+
+  font-size: 2rem;
+  line-height: 27px;}
+
