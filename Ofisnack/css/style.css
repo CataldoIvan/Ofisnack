@@ -216,12 +216,19 @@ p.primerSaludo{
 
 /* CONFIGURACION HOJA 7 POR QUE ODISNACK*/
 .pqOfisnackFoto img{
-  
-  width: 100%;
+  margin: -50px;
+  width: 140%;
 }
+table{
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
 .justicado{
   text-align: initial;
   font-size: large;
+  line-height: 17px;
 }
 
 td {
