@@ -1,3 +1,15 @@
+/*// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 1024px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+
 @font-face {
     font-family: "GothamRounded-Bold";
     src: url("GothamRounded-Bold.otf");
@@ -17,6 +29,11 @@ body {
 
 .header ul li {
   list-style: none;
+  text-align: center;
+  
+}
+.header ul li:focus{
+border-bottom:10px white;
   
 }
 .header ul li a {
@@ -59,6 +76,15 @@ p.primerSaludo{
     left: 721px;
     
 }
+@media only screen and (min-width: 300) {
+
+  .mujer{
+  left: 517px;
+ 
+  }
+}
+
+
 
 .mujerImgGrande{
   background-color: white;
@@ -74,34 +100,43 @@ p.primerSaludo{
     
 }
 /* configuracion de la Segunda Hoja*/
-
-.segundaHoja .part1{
-  height: 100%;
-
-}
-
 .segundaHoja .part1 p{
-  position: absolute;
-    top: 38%;
-    font-size: 50px;
-    left: 119px;
     line-height: 89%;
     font-weight: 100;
+    font-size: 50px;
+    text-align: center;
 }
-
 .imagen2hoja{
-  position: relative;
-    top: 6px;
-    right: 114px;
-  width: 150%;
-  height: 150%;
+  width: 70%; 
+ margin-left: 100px;
+}
+/* */
+@media (min-width: 1024px) { 
+  .segundaHoja .part1{
+    height: 100%;
+  
+  } 
+
+  .imagen2hoja{
+    position: relative;
+      top: 6px;
+      right: 114px;
+    width: 150%;
+    height: 150%;
+  
+  }
+  .segundaHoja .part1 p{
+    position: absolute;
+      top: 38%;
+      left: 119px;
+  
+}
 
 }
 
-.segundaHoja .part3{
-  height: 100%;
 
-}
+
+
 .segundaHoja .part3 p{
   position: absolute;
     bottom: 28%;
