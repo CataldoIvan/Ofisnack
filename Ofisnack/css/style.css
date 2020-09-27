@@ -28,13 +28,16 @@ body {
 /*configuracion de la 1er hoja*/
 .comillas{
     color: #01ff01;
+    font-size: 50px;
 }
 p.primerSaludo{
     font-size: 1.2em;
+    line-height: 20px;
 }
 
 
 .primerHoja li {
+  line-height: 16px;
 	margin: 0;
 	padding: 2px 5px 5px 51px;
 	list-style: none;
