@@ -1,14 +1,4 @@
-/*// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 1024px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }*/
 
 @font-face {
     font-family: "GothamRounded-Bold";
@@ -20,7 +10,7 @@ body {
     font-family: 'GothamRounded-Bold', sans-serif;
     color: white;
   }
-
+  
   .espacio{
     height: 100px;
     
@@ -39,8 +29,13 @@ border-bottom:10px white;
 .header ul li a {
   text-decoration: none;
   color: white;
-}
+}/*
+.header li:hover {
+  border-bottom: 4px solid white;
+  background: #666;
+  animation-delay: 500s;
 
+}*/
 
 /*configuracion de la 1er hoja*/
 .comillas{
@@ -55,14 +50,17 @@ p.primerSaludo{
 
 .primerHoja li {
   line-height: 16px;
-	margin: 0;
-	padding: 2px 5px 5px 51px;
-	list-style: none;
-	background-image: url("/img/puntoVerde.png");
-	background-repeat: no-repeat;
-	background-position:15px 8px;
-	background-size: 23px;
+  margin: 5px;
+  padding: 7px 5px 5px 51px;
+  list-style: none;
+  background-image: url(/img/puntoVerde.png);
+  background-repeat: no-repeat;
+  background-position: 15px 8px;
+  background-size: 23px;
+  font-size: 20px;
+
 }
+
 
 .mujer{
   background-color:white;
@@ -123,7 +121,7 @@ p.primerSaludo{
 
 @media (min-width: 768px){
 .segundaHoja .part3 img {
-    width: 45%;
+    width: 36%;
     margin: 0px 0px 0px 70px;
   }
   .segundaHoja .part1 p{
@@ -210,7 +208,7 @@ p.primerSaludo{
 }
 .CMparte2 img{
   position: relative;
-  width: 546px;
+  width: 455px;
     top: -30px;
 }
 
@@ -226,18 +224,37 @@ p.primerSaludo{
   background-color: #ffa501;
   
 }
+@media (min-width: 768px){
+  .CMparte2 img{
+    width: auto;
+    position: initial;
+      height: 329px;
+      margin-top: -126px;
+      margin-left: 53px;
+  }
+  #comoFunciona .CMparte3 img{
+    width: 50px;
+  }
 
+}
 @media (min-width: 1024px){
+  .CMparte2 img{
+    width: auto;
+    position: initial;
+      height: 329px;
+      margin-top: -126px;
+      margin-left: 53px;
+  }
+  
+  
+  }
+@media (min-width: 1400px){
 .CMparte2 img{
-  width: auto;
-  position: initial;
+ 
     height: 400px;
-    margin-top: -126px;
-    margin-left: 53px;
+    
 }
-#comoFunciona .CMparte5 {
 
-}
 
 }
 
@@ -259,35 +276,30 @@ p.primerSaludo{
 }*/
 
 /* comfiguracion de seccion Beneficios */
-
 #fotoBeneficio{
   position: relative;
     bottom: 80px;
-    height: 323px;
+    width: 323px;
     /* right: 16px; */
-    left: 110px;
-}
-
-#beneficios ul li{
-  font-size: 1.2rem;
-}
-#beneficios .bParte2 li {
-	margin: 0;
-	padding: 2px 5px 5px 51px;
-	list-style: none;
-	background-image: url("/img/puntoVerde.png");
-	background-repeat: no-repeat;
-	background-position:15px 8px;
-	background-size: 23px;
+    left: 143px;
 }
 #beneficios .bParte1 li {
-	margin: 0;
-	padding: 2px 5px 5px 51px;
-	list-style: none;
-	background-image: url("/img/puntoNaranja.png");
-	background-repeat: no-repeat;
-	background-position:15px 8px;
-	background-size: 23px;
+  margin: 0;
+  padding: 2px 5px 5px 51px;
+  list-style: none;
+  background-image: url("/img/puntoNaranja.png");
+  background-repeat: no-repeat;
+  background-position:15px 8px;
+  background-size: 23px;
+}
+#beneficios .bParte2 li {
+  margin: 0;
+  padding: 2px 5px 5px 51px;
+  list-style: none;
+  background-image: url("/img/puntoVerde.png");
+  background-repeat: no-repeat;
+  background-position:15px 8px;
+  background-size: 23px;
 }
 .mujerEnBeneficio{
   background-color:white;
@@ -298,57 +310,136 @@ p.primerSaludo{
     height: 170px;
     
 }
+@media(min-width: 1400px){
 
-/*Configuracion de 5 hoja encontraEnOfisnack */
+
+  
+}
+@media(min-width: 1400px){
+
+  #fotoBeneficio{
+      height: 323px;
+      width: 459px;
+      left: 110px;
+  }
+  
+  #beneficios ul li{
+    font-size: 1.2rem;
+  }
+  
+  
+  
+
+}
+
+
+
+
+/******************Configuracion de 5 hoja encontraEnOfisnack *****************/
 #snaky{
-  margin: -139px 0px 0px -1px;
+  position: absolute;
+  width: 137%;
+  top: -154px;
+  left: -87px;
 
 }
 #caja{
-  width: 60%;
-    margin-left: 115px;
+  width: 80%;
+ 
+}
+@media(min-width:1024px){
+  #snaky{
+    width: 80%;
+    margin: 28px 0px 0px -1px;
+  
+  }
+  #caja{
+    width: 60%;
+      margin-left: 115px;
+  }
 }
 
-/* CONFIGURACION HOJA 7 POR QUE ODISNACK*/
-.pqOfisnackFoto img{
-  margin: -50px;
-  width: 140%;
-}
-table{
-  padding: 0;
-  margin: 0;
-  float: left;
-}
-
-.justicado{
-  text-align: initial;
-  font-size: large;
-  line-height: 17px;
-}
-
-td {
-  text-align: center;
+/************* CONFIGURACION HOJA 7 POR QUE ODISNACK****************/
+#uno,#dos,#tres,#cuatro,#cinco,#seis {
+  width: 25px;
 }
 #tilde,#cruz{
- 
-  width: 57px;
+    width: 30%;
 }
-#uno,#dos,#tres,#cuatro,#cinco,#seis {
-  width: 50px;
+.justicado{
+  text-align: initial;
+  font-size: 16px;
+  line-height: 17px;
+}
+.contenedorTabla{
+  margin-top: 10px;
+  margin-left:-6px;
+  margin-right: 0px;
+}
+td {
+  text-align: center;
+  
+}
+th{
+  font-size: 16px;
+  text-align: center;
+}
+.pqOfisnackFoto img{
+  text-align: center;
+  width: 80%;
 }
 
-/* CONFIGURACION HOJA 8 (final)mision*/
+@media(min-width:1024px){
+  .pqOfisnackFoto img{
+    margin: -50px;
+    width: 140%;
+  }
+  
+  table{
+    padding: 0;
+    margin: 0;
+    float: left;
+  }
+  th{
+    font-size: 23px;
+  }
+  .justicado{
+
+    font-size: 20px;
+    
+  }
+
+  #tilde,#cruz{   
+    width: 57px;
+  }
+  #uno,#dos,#tres,#cuatro,#cinco,#seis {
+    width: 50px;
+  }
+}
+
+
+/********************** CONFIGURACION HOJA 8 (final)mision*********************/
 #mision div h1{
   letter-spacing: -2px;
     line-height: 36px;
 }
-
-#mision p img{
-  text-align: end;
+#mision h3{
+  
+  font-size: 1.4rem;
+  line-height: 27px;
 }
 
-#mision h3{
-
-  font-size: 2rem;
-  line-height: 27px;}
+@media( min-width: 1024px){
+  
+  
+  #mision p img{
+    text-align: end;
+  }
+  #mision h3{
+  
+    font-size: 2rem;
+    line-height: 27px;
+  }
+ 
+}
 
