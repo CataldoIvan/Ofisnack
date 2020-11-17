@@ -4,6 +4,10 @@
     font-family: "GothamRounded-Bold";
     src: url("GothamRounded-Bold.otf");
   }
+/* desplazamiento suave por la pagina*/
+  html{
+    scroll-behavior: smooth;
+  }
 
 body {
     background-color:#17a2b8;
@@ -53,7 +57,7 @@ p.primerSaludo{
   margin: 5px;
   padding: 7px 5px 5px 51px;
   list-style: none;
-  background-image: url(/img/puntoVerde.png);
+  background-image: url(puntoVerde.png);
   background-repeat: no-repeat;
   background-position: 15px 8px;
   background-size: 23px;
@@ -287,7 +291,7 @@ p.primerSaludo{
   margin: 0;
   padding: 2px 5px 5px 51px;
   list-style: none;
-  background-image: url("/img/puntoNaranja.png");
+  background-image: url("puntoNaranja.png");
   background-repeat: no-repeat;
   background-position:15px 8px;
   background-size: 23px;
@@ -296,7 +300,7 @@ p.primerSaludo{
   margin: 0;
   padding: 2px 5px 5px 51px;
   list-style: none;
-  background-image: url("/img/puntoVerde.png");
+  background-image: url("puntoVerde.png");
   background-repeat: no-repeat;
   background-position:15px 8px;
   background-size: 23px;
