@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Contactanos!</title>
+  </head>
+  <Style>
+      @font-face {
+    font-family: "GothamRounded-Bold";
+    src: url("./css/GothamRounded-Bold.otf");
+    }
+    body{
+        font-family: 'GothamRounded-Bold', sans-serif;
+        
+    }
+      body{
+        background-color:#17a2b8;
+        color: white;
+      }
+      .formulario,form{
+        
+        background-color:#fff;
+        color: #17a2b8;
+        border-radius: 40px;
+        margin-bottom: 30px;
+
+      }
+      img {
+          height: 600px;
+      }
+      .validate{
+          border: none;
+          border-style: none;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+      }
+      .validate:focus {
+        border-bottom: 3px solid rgba(0, 0, 0, 1);
+        -webkit-transition: 0.2s ease-in;
+        -o-transition: 0.2s ease-in;
+        transition: 0.3s ease-in;
+
+        }
+        
+        .form-control:focus {
+    
+     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 255, 255, 1);
+}
+  </Style>
+  <body class="container">
+    <div class="row">
+        
+        <div class=" contendor col-12 mt-5 ">
+            <!-- Imagen de caja de Ofisnack-->
+            <div class="col-6 d-none d-md-block float-right">
+                <p class=" ml-2 "><img src="./img/cajaAbierta.png" alt=""></p>
+
+            </div>
+            <!-- FIN imagen de caja de Ofisnack-->
+
+            <!-- MENSAJE DE AGRADECIMIENTO POR CONTACTOR-->
+            <div class="gracias col-xs-12 col-md-6 mt-5  float-left" style="display: none;" >
+                <h1>Gracias por contactarte con nosotros!</h1>
+                <H5>te invitamos a conocer todos nuestros productos  en : <a href="www.ofidirect.com" style="color:#fff; font-size: 26px;">Ofidirect.com</a> </H5>
+                <img src="BOLSA.png" alt="" style="width: 360px; height: auto;">
+
+            </div>
+             <!-- *** FIN *****MENSAJE DE AGRADECIMIENTO POR CONTACTOR-->
+
+             <!-- Seccion Formulario de contacto-->
+            <div  class="formulario col-xs-12 col-md-6 mt-3  float-left" >
+                <h1 class="text-center mt-3">
+                    CONTACTO
+                </h1>
+                <h6 class=" m-2">
+                    Ingresá tus datos y un asesor de ventas se pondrá en contacto dentro de las próximas 24hs. hábiles.
+                    <br>
+                    ¿Tenés alguna duda? Llamanos al: 4876-5555 
+                </h6>
+                <form class=" col-10 ml-5" id="lead_form" action="https://www.ofidirect.com/leads/leads_process?uuid=2ec69fd0-9629-1970-d768-c8215e5e8a71" method="POST" onsubmit="check_if_capcha_is_filled" validate="validate">
+                    <input type="hidden" name="LeadSource" value="0002" />
+                    <input type="hidden" name="UseCaptcha" />
+                    <div class="my-2">
+                        <label hidden class="active" for="Nombre">
+                            Nombre:
+                        </label>
+                        <input class="validate form-control" type="" value="" name="Nombre"id="Nombre" placeholder="Nombre" required="required" />
+                    </div>
+                    <div class="my-2">
+                        <label hidden class="active" for="Apellido">
+                            Apellido:
+                        </label>
+                        <input class="validate form-control" type="" value="" name="Apellido" id="Apellido" placeholder="Apellido" required="required" />
+                    </div>
+                    <div class="my-2">
+                        <label hidden class="active" for="Telefono">
+                            Telefono:
+                        </label>
+                        <input class="validate form-control" type="" value="" name="Telefono" id="Telefono" placeholder="Teléfono" required="required" />
+                    </div>
+                    <div class="my-2">
+                        <label hidden class="active" for="CorreoElectronico">
+                            Correo Electronico:
+                        </label>
+                        <input class="validate form-control" type="" value="" name="CorreoElectronico" id="CorreoElectronico" placeholder="Correo electrónico" required="required" />
+                    </div>
+                    <div class="my-2">
+                        <label  hidden class="active" for="Empresa">
+                            Empresa :
+                        </label>
+                        <input class="validate form-control" type="" value="" name="Empresa" id="Empresa" placeholder="Empresa" required="required" />
+                    </div>
+                    <div class="col-6 float-left my-2">
+                        <label  hidden class="active" for="Area">
+                            Area:
+                        </label>
+                        <input class="validate form-control" type="" value="" name="Area"id="Area" placeholder="Área" required="required" style="margin-left:-15px;"/>
+                    </div>
+                    <div class="col-6 float-left my-2" style="margin-left: 0px;">
+                        <label  hidden class="active" for="Empleados">
+                            Empleados:
+                        </label>
+                        <input class="validate form-control" type="" value="" name="Empleados" id="Empleados" placeholder="Cant. Empleados" required="required" style="margin-left: 13px;" />
+                    </div>
+                    <div class="my-2">
+                        <label   class="active" for="Fuente">
+                            Dónde nos conociste?
+                        </label>
+                        <select class="validate fuente form-control" aria-placeholder="jsdja" name="Fuente" id="Fuente" required="required">
+                            <option value="" disabled> Seleccionar</option>
+                            <option value="Linkedin">Linkedin</option>
+                            <option value="Instagram">Instagram</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Google">Google</option>
+                            <option value="Referido">A través de un referido</option>
+                            <option value="Newsletter">Newsletter</option>
+                            <option value="Otro">Otro</option>
+                          </select>
+                    </div>
+                    <div hidden>
+                        <label class="active" for="Campaign">
+                            campaign_id
+                        </label>
+                        <input class="validate" type=""
+                            value="Microsite_Ofisnack" name="Campaign" id="Campaign" placeholder="" required="required" />
+                        </div>
+                    <div  class="comentario my-2" style="display:none;">
+                        <label class="active" for="Comentario">
+                            Donde?
+                        </label>
+                        <input class="validate  form-control" type="text-area" value="" name="Comentario" id="Comentario" placeholder="" />
+                    </div>
+                    <script>
+                        var useCaptcha = document.getElementById('UserCaptcha');
+                        var allowSubmit = !useCaptcha;
+                        function check_if_capcha_is_filled(e) {
+                            console.log(allowSubmit);
+                            console.log('test validation');
+                            if (allowSubmit) return true;
+                            e.preventDefault();
+                        }
+                    </script>
+                    <p class="text-center">
+                        <button class="col-6 mt-2 btn btn-warning badge-pill waves-effect waves-light hide" type="submit" id="send_action"
+                        name="action" onclick="Redirect()">
+                        Enviar
+                    </button>
+                    </p>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+      /* compruebo si se selecciona el ¡valor OTRO en menu desplegable para mostrar campo adicional*/
+        const selectElement = document.querySelector('.fuente');
+        selectElement.addEventListener('change', (event) => {
+            const comentario = document.querySelector('.comentario');
+            
+            /*comentario.textContent = `Te gusta el sabor ${event.target.value}`;*/
+         
+            if (selectElement.value === "Otro") {
+                console.log("seleccionaste "+selectElement.value)
+                comentario.style.display = 'block'
+            }else{
+                comentario.style.display = 'none'
+            }
+        });
+
+ /* FIIIN compruebo si se selecciona el ¡valor OTRO en menu desplegable para mostrar campo adicional*/
+          /*  document.getElementById("send_action").addEventListener("click", comentario.style.display = 'block');*/
+          
+    /* redireccionamiento  al agradecimiento, aunque no funciona con el formulario de Oppen*/      
+            function Redirect(){
+                const agradecimiento= document.querySelector('.gracias');
+                const fomulario= document.querySelector('.formulario');
+
+                agradecimiento.style.display = 'block';
+                fomulario.style.display = 'none';
+
+            window.location="https://www.ofidirect.com/ecommerce/#/";
+            setTimeout('Redirect()', 5000);
+            }
+            
+
+        
+    </script>
+  </body>
+</html>
